@@ -1,1 +1,67 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "OpenSans";
+  src: url(../Open_Sans/OpenSans-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-B";
+  src: url(../Open_Sans/OpenSans-Bold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "OpenSans";
+}
+
+.sticky-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.ocultar {
+  overflow-x: hidden;
+  width: 995px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+div aside > h3.h3-aside {
+  font-family: "OpenSans-B" !important;
+}
+
+.popular {
+  list-style: none;
+}
+
+.num-popular {
+  font-size: 32px;
+  color: rgba(107, 106, 106, 0.336);
+  font-family: "OpenSans";
+}
+
+aside h5 {
+  font-family: "OpenSans-B";
+}
+
+footer {
+  font-size: 13px;
+  font-size: "OpenSans";
+}
+
+@media only screen and (min-width: 768px) {
+  .sticky-aside {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
