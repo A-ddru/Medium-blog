@@ -26,7 +26,6 @@ body {
 
 .ocultar {
   overflow-x: hidden;
-  width: 900px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,12 +95,6 @@ footer {
   }
   .mycard + img {
     height: 100px;
-  }
-  p-card3 {
-    padding: 0px;
-    margin-top: 1rem;
-    padding-right: 33%;
-    background-color: yellowgreen;
   }
 }
 /*# sourceMappingURL=style.css.map */
