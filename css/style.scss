@@ -13,6 +13,18 @@
 body {
   font-family: "OpenSans";
 }
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+.ocultar {
+  overflow-x: hidden;
+  width: 995px;
+  display: flex;
+  flex-wrap: nowrap;
+}
 div aside > h3.h3-aside {
   font-family: "OpenSans-B" !important;
 }
@@ -25,10 +37,16 @@ div aside > h3.h3-aside {
   color: rgba(107, 106, 106, 0.336);
   font-family: "OpenSans";
 }
-
+aside h5 {
+  font-family: "OpenSans-B";
+}
 footer {
   font-size: 13px;
   font-size: "OpenSans";
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
+  .sticky-aside {
+    position: sticky;
+    top: 0;
+  }
 }
