@@ -13,15 +13,40 @@
 body {
   font-family: "OpenSans";
 }
+li {
+  a {
+    color: gray;
+  }
+}
+.iconos {
+  color: grey;
+  i {
+    font-size: 16px;
+  }
+}
+.iconos i:hover {
+  color: black;
+}
+
 .sticky-nav {
   position: sticky;
   top: 0;
   background-color: white;
   z-index: 1;
 }
+.sticky-nav {
+  ul {
+    font-size: 14px;
+  }
+  i {
+    color: rgba(148, 145, 145, 0.384);
+    font-size: 1.2rem;
+    font-weight: light;
+  }
+}
 .ocultar {
   overflow-x: hidden;
-  //width: 990px;
+  //width: 87%;
   display: flex;
   flex-wrap: nowrap;
 }
@@ -62,10 +87,14 @@ footer {
   font-size: 14px;
   a {
     text-decoration: none;
+    color: #03a87c;
   }
 }
 .parafos-card {
   font-size: 14px;
+}
+.nav-link:hover {
+  color: black;
 }
 @media only screen and (min-width: 768px) {
   .sticky-aside {
@@ -79,5 +108,20 @@ footer {
   }
   .mycard + img {
     height: 100px;
+  }
+  nav {
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    i {
+      margin: 0px 0px;
+      padding: 0;
+    }
+  }
+  .ocultar {
+    overflow-x: auto;
+
+    display: flex;
+    flex-wrap: nowrap;
   }
 }
