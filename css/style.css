@@ -20,16 +20,17 @@ li a {
   color: gray;
 }
 
-.iconos {
+svg {
   color: grey;
 }
 
-.iconos i {
+svg i {
   font-size: 16px;
 }
 
-.iconos i:hover {
+svg:hover {
   color: black;
+  background-color: white;
 }
 
 .sticky-nav {
@@ -38,6 +39,7 @@ li a {
   top: 0;
   background-color: white;
   z-index: 1;
+  height: 32px;
 }
 
 .sticky-nav ul {
@@ -122,13 +124,11 @@ footer {
   .p-card1 {
     padding: 0px;
     margin-top: 1rem;
-    padding-left: 10%;
   }
   .mycard + img {
     height: 100px;
   }
   nav {
-    width: 78%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -143,6 +143,11 @@ footer {
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+  }
+  .img-sec1 {
+    position: relative;
+    left: -50px;
+    width: 111%;
   }
 }
 /*# sourceMappingURL=style.css.map */

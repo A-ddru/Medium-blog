@@ -18,21 +18,22 @@ li {
     color: gray;
   }
 }
-.iconos {
+svg {
   color: grey;
   i {
     font-size: 16px;
   }
+  &:hover {
+    color: black;
+    background-color: white;
+  }
 }
-.iconos i:hover {
-  color: black;
-}
-
 .sticky-nav {
   position: sticky;
   top: 0;
   background-color: white;
   z-index: 1;
+  height: 32px;
 }
 .sticky-nav {
   ul {
@@ -62,7 +63,6 @@ div aside > h3.h3-aside {
   color: rgba(107, 106, 106, 0.336);
   font-family: "OpenSans";
 }
-
 h5 {
   font-family: "OpenSans-B";
   font-size: 18px;
@@ -96,6 +96,7 @@ footer {
 .nav-link:hover {
   color: black;
 }
+
 @media only screen and (min-width: 768px) {
   .sticky-aside {
     position: sticky;
@@ -104,13 +105,12 @@ footer {
   .p-card1 {
     padding: 0px;
     margin-top: 1rem;
-    padding-left: 10%;
   }
   .mycard + img {
     height: 100px;
   }
   nav {
-    width: 78%;
+    //width: 88%;
     margin-left: auto;
     margin-right: auto;
     i {
@@ -123,5 +123,11 @@ footer {
 
     display: flex;
     flex-wrap: nowrap;
+  }
+  .img-sec1 {
+    position: relative;
+    left: -50px;
+
+    width: 111%;
   }
 }
