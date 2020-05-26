@@ -28,6 +28,20 @@ svg {
     background-color: white;
   }
 }
+.btn {
+  border: 1px solid rgba(39, 38, 38, 0.801);
+  padding: 6 18px;
+  font-size: 12px;
+  &:hover {
+    color: black;
+    background-color: white;
+  }
+  &:active {
+    color: black;
+    background-color: white;
+  }
+}
+
 .sticky-nav {
   position: sticky;
   top: 0;
