@@ -33,6 +33,22 @@ svg:hover {
   background-color: white;
 }
 
+.btn {
+  border: 1px solid rgba(39, 38, 38, 0.801);
+  padding: 6 18px;
+  font-size: 12px;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.btn:active {
+  color: black;
+  background-color: white;
+}
+
 .sticky-nav {
   position: -webkit-sticky;
   position: sticky;
